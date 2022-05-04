@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   background: url("../img/fondo.png");
 }
 
@@ -23,7 +23,7 @@ ul {
 a {
   text-decoration: none;
   display: inline-block;
-  color: #868484;
+  color: rgb(134, 132, 132);
 }
 
 img {
@@ -42,7 +42,7 @@ nav, .servicios, .presentacion, .footer-content {
 
 p {
   font-size: 1.8rem;
-  color: #868484;
+  color: rgb(134, 132, 132);
 }
 
 h2 {
@@ -54,7 +54,7 @@ h3 {
   font-weight: lighter;
 }
 
-.btn, .btn-principal, .btn-secundario {
+.btn, .btn-secundario, .btn-principal{
   border: none;
   border-radius: 2px;
   padding: 0.7em 1.5em;
@@ -65,8 +65,7 @@ h3 {
   font-weight: 500;
   transition: transform 100ms;
 }
-
-.btn:hover, .btn-principal:hover, .btn-secundario:hover {
+.btn:hover, .btn-secundario:hover, .btn-principal:hover {
   transform: scale(1.1);
 }
 
@@ -76,7 +75,7 @@ h3 {
 }
 
 .btn-secundario {
-  background-color: #868484;
+  background-color: rgb(134, 132, 132);
 }
 
 .ejemplo {
@@ -91,7 +90,7 @@ h3 {
 header {
   position: fixed;
   top: 0;
-  border-top: 30px solid #343533;
+  border-top: 30px solid rgb(52, 53, 51);
   width: 100%;
 }
 
@@ -107,18 +106,15 @@ nav {
   align-items: center;
   flex-wrap: nowrap;
 }
-
 nav ul {
   display: flex;
   padding: 0;
 }
-
 nav ul a {
   padding: 10px;
   font-size: 1.6rem;
   font-weight: bold;
 }
-
 nav ul a:hover {
   color: #6495ED;
   transform: scale(1.1);
@@ -132,17 +128,14 @@ nav ul a:hover {
   align-items: center;
   flex-wrap: nowrap;
 }
-
 .presentacion .flex-item2 {
   text-align: center;
 }
-
 .presentacion h1 {
   margin-top: 0;
   padding-right: 20px;
   font-size: 3rem;
 }
-
 .presentacion p {
   padding-right: 20px;
   padding-bottom: 10px;
@@ -151,14 +144,12 @@ nav ul a:hover {
 .servicios div {
   text-align: center;
 }
-
 .servicios .tipo-servicios {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
-
 .servicios .tipo-servicios i {
   font-size: 30px;
   color: #6495ED;
@@ -166,10 +157,9 @@ nav ul a:hover {
 
 footer {
   min-height: 80px;
-  background-color: #343533;
+  background-color: rgb(52, 53, 51);
   margin-top: 0;
 }
-
 footer .footer-content {
   text-align: center;
   padding-top: 30px;
@@ -182,15 +172,16 @@ footer .footer-content {
     margin: auto;
   }
 }
-
 @media (max-width: 992px) {
   .presentacion, .tipo-servicios {
     flex-direction: column;
   }
+
   .presentacion div {
     text-align: center;
     margin-bottom: 30px;
   }
+
   nav {
     display: flex;
     justify-content: center;
@@ -203,7 +194,6 @@ footer .footer-content {
     padding-left: 0;
   }
 }
-
 @media (max-width: 420px) {
   .presentacion div {
     text-align: center;
@@ -213,3 +203,5 @@ footer .footer-content {
     padding: 0;
   }
 }
+
+
